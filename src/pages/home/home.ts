@@ -2,6 +2,7 @@ import { Component } from '@angular/core';
 import { NavController } from 'ionic-angular';
 import { HistoriaPage } from '../historia/historia';
 import { CsPage } from '../cs/cs';
+import { PyePage } from '../pye/pye';
 
 @Component({
   selector: 'page-home',
@@ -11,6 +12,7 @@ import { CsPage } from '../cs/cs';
 export class HomePage {
   historia = HistoriaPage;
   cs = CsPage;
+  pye = PyePage;
   constructor(public navCtrl: NavController) {
 
   }
@@ -21,6 +23,10 @@ export class HomePage {
 
   clickCS(){
     this.navCtrl.push(this.cs);
+  }
+
+  clickPyE() {
+    this.navCtrl.push(this.pye);
   }
 
 }
