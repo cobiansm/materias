@@ -11,6 +11,7 @@ import { CsPage } from '../pages/cs/cs';
 import { PyePage } from '../pages/pye/pye';
 import { CalculoPage } from '../pages/calculo/calculo';
 import { MiPage } from '../pages/mi/mi';
+import { RoboticaPage } from '../pages/robotica/robotica';
 
 @NgModule({
   declarations: [
@@ -20,7 +21,8 @@ import { MiPage } from '../pages/mi/mi';
     CsPage,
     PyePage,
     CalculoPage,
-    MiPage
+    MiPage,
+    RoboticaPage
   ],
   imports: [
     BrowserModule,
@@ -34,7 +36,8 @@ import { MiPage } from '../pages/mi/mi';
     CsPage,
     PyePage,
     CalculoPage,
-    MiPage
+    MiPage,
+    RoboticaPage
   ],
   providers: [
     StatusBar,
