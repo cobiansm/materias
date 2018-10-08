@@ -6,6 +6,7 @@ import { PyePage } from '../pye/pye';
 import { CalculoPage } from '../calculo/calculo';
 import { MiPage } from '../mi/mi';
 import { RoboticaPage } from '../robotica/robotica';
+import { ComPage } from '../com/com';
 
 @Component({
   selector: 'page-home',
@@ -19,6 +20,7 @@ export class HomePage {
   calculo = CalculoPage;
   mi = MiPage;
   rob = RoboticaPage;
+  com = ComPage
   constructor(public navCtrl: NavController) {
 
   }
@@ -45,6 +47,14 @@ export class HomePage {
 
   clickROB() {
     this.navCtrl.push(this.rob);
+  }
+
+  clickCOM() {
+    this.navCtrl.push(this.com);
+  }
+
+  clickPAPPS() {
+    this.navCtrl.push(this.com);
   }
 
 }
