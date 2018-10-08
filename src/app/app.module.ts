@@ -40,7 +40,7 @@ import { ComPage } from '../pages/com/com';
     CalculoPage,
     MiPage,
     RoboticaPage,
-    ComPage
+    ComPage,
   ],
   providers: [
     StatusBar,
