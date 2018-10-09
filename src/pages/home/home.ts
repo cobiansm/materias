@@ -61,7 +61,7 @@ export class HomePage {
     this.navCtrl.push(this.papps);
   }
 
-  clickDIB() {
+  clickD() {
     this.navCtrl.push(this.dib);
   }
 
